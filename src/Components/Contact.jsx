@@ -18,6 +18,9 @@ const Contact = () => {
       <p>
        <a href="https://github.com/Jimbobster">My Github Profile</a>
       </p>
+      <p>
+        <a href="./src/assets/James Greaves CV 2023.pdf" target="_blank" rel="noopener noreferrer">Download My CV</a>
+      </p>
       {/* Contact form */}
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>

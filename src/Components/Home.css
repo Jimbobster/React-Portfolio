@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to bottom, #242424, #1a1a1a);
+    color: #371ce6;
+    margin-top: 40px;
+  }
+
+  h1, h2 {
+    color: #fff;
+  }
+  .profile-photo {
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about-me {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    color: #3a1ad6;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .skills {
+    text-align: center;
+    padding: 40px;
+    background-color: #535bf2;
+    color: #381eaf;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #fff;
+  }
+  
+  .skills-list li:nth-child(odd) {
+    background-color: #646cff;
+  }
+  
+  .skills-list li:nth-child(even) {
+    background-color: #535bf2;
+  }

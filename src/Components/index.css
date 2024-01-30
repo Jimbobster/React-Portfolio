@@ -79,14 +79,19 @@ button:focus-visible {
 }
 
 .contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin: 20px;
   padding: 20px;
-  border: 1px solid #c91414;
-  background-color: #cb0f0f;
+  border: 1px solid #141dc9;
+  background-color: #0f0fcb;
+  text-align: center;
 }
 
 .contact h2 {
-  color: #f2eeee;
+  color: #cbc7c7;
 }
 
 .contact p {
@@ -101,7 +106,7 @@ form {
 
 label {
   margin-bottom: 5px;
-  color: #333;
+  color: #f4efef;
 }
 
 input,
@@ -139,6 +144,7 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: center; 
 }
 
 li {
@@ -157,7 +163,7 @@ a:hover {
 
 .project {
   width: 100px;
-  margin: 10px;
+  margin: auto;
   display: inline-block;
 }
 
@@ -186,6 +192,7 @@ a:hover {
   border: 1px solid #646cff;
   border-radius: 8px;
   width: 200px;
+  margin-top: 20px;
 }
 
 .card-img-top {
@@ -233,6 +240,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 60px;
 }
 
 .card {
@@ -264,4 +272,9 @@ a:hover {
 .card-text {
   margin-bottom: 1rem;
   color: #646cff;
+}
+.profile-photo {
+  max-width: 20%;
+  height: auto;
+  border-radius: 10px;
 }

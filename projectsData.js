@@ -36,7 +36,7 @@ const projectsData = [
     },
     {
       id: 6,
-      title: "Project 6",
+      title: "Workday Scheduler",
       deployedLink: "https://jimbobster.github.io/Work-Day-Scheduler/",
       githubLink: "https://github.com/Jimbobster/Work-Day-Scheduler",
       image:"./src/assets/Work-Day-Scheduler.png",
