@@ -13,14 +13,20 @@ const Contact = () => {
       <p>Email: jgreavesei@gmail.com</p>
       <p>Phone: +447790444222</p>
       <p>
-      <a href="https://www.linkedin.com/in/james-greaves-202a28293">My LinkedIn Profile</a>
-      </p>
-      <p>
-       <a href="https://github.com/Jimbobster">My Github Profile</a>
-      </p>
-      <p>
-        <a href="./src/assets/James Greaves CV 2023.pdf" target="_blank" rel="noopener noreferrer">Download My CV</a>
-      </p>
+  <a href="https://www.linkedin.com/in/james-greaves-202a28293" target="_blank" rel="noopener noreferrer">
+    <img src="Link.gif" alt="LinkedIn Profile" />
+  </a>
+</p>
+<p>
+  <a href="https://github.com/Jimbobster" target="_blank" rel="noopener noreferrer">
+    <img src="git.gif" alt="GitHub Profile" />
+  </a>
+</p>
+<p>
+  <a href="./src/assets/James Greaves CV 2023.pdf" target="_blank" rel="noopener noreferrer">
+    <img src="cv.gif" alt="Download My CV" />
+  </a>
+</p>
       {/* Contact form */}
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>

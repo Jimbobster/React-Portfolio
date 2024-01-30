@@ -7,10 +7,14 @@ body {
   h1, h2 {
     color: #fff;
   }
+  h2 {
+    font-style: italic;
+  }
   .profile-photo {
-    max-width: 20%;
+    max-width: 40%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
   }
   
   .about-me {
@@ -50,3 +54,4 @@ body {
   .skills-list li:nth-child(even) {
     background-color: #535bf2;
   }
+  

@@ -6,6 +6,8 @@ import Home from './Components/Home';
 import ProjectGallery from './Components/ProjectGallery';
 import Project from './Components/Project';
 import Contact from './Components/Contact';
+import AboutMe from './Components/AboutMe';
+import Skills from './Components/Skills';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/Projects" element={<ProjectGallery />} />
           <Route path="/Project/:id" element={<Project />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Skills" element={<Skills />} />
         </Routes>
       </div>
     </Router>
