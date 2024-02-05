@@ -5,7 +5,6 @@ import './Skills.css';
 const Skills = () => {
   return (
     <div className="skills-container">
-      {/* First Set of Skill Cards */}
       <div className="skill-card">
         <img src="HTML.png" alt="HTML Logo" className="skill-logo" />
         <h3 className="skill-name">HTML</h3>
@@ -46,7 +45,6 @@ const Skills = () => {
         </p>
       </div>
 
-      {/* Second Set of Skill Cards */}
       <div className="skill-card">
         <img src="icons8-javascript-480.png" alt="JavaScript Logo" className="skill-logo" />
         <h3 className="skill-name">JavaScript</h3>
@@ -55,7 +53,6 @@ const Skills = () => {
         </p>
       </div>
 
-      {/* Additional Skill Cards */}
       <div className="skill-card">
         <img src="icons8-backend-development-100.png" alt="Web Development Tools Logo" className="skill-logo" />
         <h3 className="skill-name">Web Development Tools</h3>

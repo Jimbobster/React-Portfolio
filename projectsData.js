@@ -41,6 +41,31 @@ const projectsData = [
       githubLink: "https://github.com/Jimbobster/Work-Day-Scheduler",
       image:"./src/assets/Work-Day-Scheduler.png",
     },
+    {
+      id: 7,
+      title: "Team Generator",
+      deployedLink: "https://jimbobster.github.io/Team-Profile-Generator/",
+      githubLink: "https://github.com/Jimbobster/Team-Profile-Generator",
+      image:"./src/assets/My-Team.png",
+    },
+    {
+      id: 8,
+      title: "Wedding Photos Website",
+      deployedLink: "https://jimbobster.github.io/Wedding-Photos/",
+      githubLink: "https://github.com/Jimbobster/Wedding-Photos",
+      image:"./src/assets/Our-Wedding.png",
+    },
+    {
+      id: 9,
+      title: "Horiseon CSS Refactor",
+      deployedLink: "https://jimbobster.github.io/Horiseon-CSS-Refactor/",
+      githubLink: "https://github.com/Jimbobster/Horiseon-CSS-Refactor",
+      image:"./src/assets/Horiseon-Media.png",
+    },
+
+
+
+
   ];
   
   export default projectsData;
